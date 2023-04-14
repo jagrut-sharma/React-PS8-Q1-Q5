@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn {
+  margin: 1rem 0.15rem;
+}
+
+.active-link {
+  color: red;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  color: green;
+  font-weight: 500;
+}
+
+.cart-element,
+.wishlist-element {
+  margin: 1rem 0;
+  border: 3px solid gray;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.clear {
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  border-radius: 10px;
+}
